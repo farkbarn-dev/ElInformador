@@ -9,9 +9,9 @@
     <meta name="robots" content="index,follow" />
     <meta name="keywords" content="venezuela,lara,noticias,internacionales,deportes,sucesos,economia,actualidad,opinión,vida,especiales,carteles,obituarios"/>
     <meta name="author" content="Frank Barrera | @farkbarn"/>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="<?php echo bloginfo('stylesheet_url') ?>">
+    <link rel="stylesheet" href="<?php echo bloginfo('stylesheet_url') ?>">
+    <link rel="stylesheet" href="<?php echo bloginfo('stylesheet_url') ?>">
     <link rel="shortcut icon" type="image/x-icon" href="img/logoEI.png">
   </head>
   <body>
