@@ -18,10 +18,13 @@
   <body>
     <main class="main">
       <section class="header">
-        <img class="logo" src=<?php echo get_template_directory_uri()."/img/elinformadorve.svg"; ?> alt="">
+        <a href="<?php echo get_site_url(); ?>">
+          <img class="logo" src=<?php echo get_template_directory_uri()."/img/elinformadorve.svg"; ?> alt="">
+        </a>
       </section>
       <section class="body">
         <ul class="menu">
+          <li> <a href="<?php echo get_site_url(); ?>">Inicio</a> </li>
           <li> <a href="<?php echo get_site_url()."/lara"; ?>">lara</a> </li>
           <li> <a href="<?php echo get_site_url()."/venezuela"; ?>">venezuela</a> </li>
           <li> <a href="<?php echo get_site_url()."/internacionales"; ?>">internacionales</a> </li>
