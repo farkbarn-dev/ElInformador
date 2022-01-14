@@ -1,26 +1,6 @@
-  <body>
-    <main class="main">
-      <section class="header">
-        <img class="logo" src="img/elinformadorve.svg" alt="">
-      </section>
-      <section class="body">
-        <ul class="menu">
-          <li> <a href="#">lara</a> </li>
-          <li> <a href="#">venezuela</a> </li>
-          <li> <a href="#">internacionales</a> </li>
-          <li> <a href="#">deportes</a> </li>
-          <li> <a href="#">sucesos</a> </li>
-          <li> <a href="#">economía</a> </li>
-          <li> <a href="#">actualidad</a> </li>
-          <li> <a href="#">opinión</a> </li>
-          <li> <a href="#">vida</a> </li>
-          <li> <a href="#">especiales</a> </li>
-          <li> <a href="#">carteles</a> </li>
-          <li> <a href="#">obituarios</a> </li>
-        </ul>
-        <section class="slider">
-
-        </section>
+<?php
+  get_header();
+?>
         <section class="notas">
           <p class="eticat"><a class="linkcat" href="#">venezuela</a></p>
           <section class="nota">
@@ -347,3 +327,6 @@
             <p class="fechanotafront">13/01/2022</p>
           </section>
         </section><!---fin notas-->
+        <?php
+          get_footer();
+        ?>
