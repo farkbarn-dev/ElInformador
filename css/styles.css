@@ -1,19 +1,4 @@
 @charset "UTF-8";
-/*
-Theme Name: test
-Theme URI: https://github.com/farkbarn2/ElInformador
-Author: Frank Barrera | @farkbarn
-Author URI: https://www.linkedin.com/in/frank-a-barrera-g-/
-Description: Tema diario El Informador para Wordpress
-Requires at least: 5.8.3
-Requires PHP: 5.2.4
-Version: 0.1
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: test
-Tags: test,test
-*/
-
 @font-face {
   font-family: 'arial-narrow';
   src: url('arial-narrow.ttf') format('truetype');
