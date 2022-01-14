@@ -327,6 +327,6 @@
             <p class="fechanotafront">13/01/2022</p>
           </section>
         </section><!---fin notas-->
-        <?php
-          get_footer();
-        ?>
+<?php
+  get_footer();
+?>
