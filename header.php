@@ -24,7 +24,7 @@
       </section>
       <section class="body">
         <ul class="menu">
-          <li> <a href="<?php echo get_site_url(); ?>">Inicio</a> </li>
+          <li> <a href="<?php echo get_site_url(); ?>">inicio</a> </li>
           <li> <a href="<?php echo get_site_url()."/lara"; ?>">lara</a> </li>
           <li> <a href="<?php echo get_site_url()."/venezuela"; ?>">venezuela</a> </li>
           <li> <a href="<?php echo get_site_url()."/internacionales"; ?>">internacionales</a> </li>
