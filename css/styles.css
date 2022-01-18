@@ -33,5 +33,5 @@ p.eticat a.linkcat:hover{text-transform:uppercase;color:#de7d0f;font-size: 17px;
 .notint{width: 50%;float: left;}
 .notintsingle{width: 100%;float: left;}
 .notint figure img{float: left;width: 100%;}
-.linknotint{margin-top: 10px;margin-bottom: 10px;float: left;}
+.linknotint{margin-top: 10px;margin-bottom: 10px;float: left;color:#dc7c25;font-weight: bold;}
 .notintsingle{float: left;}
