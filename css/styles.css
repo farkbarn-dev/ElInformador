@@ -14,7 +14,7 @@ ul.menu li{display: inline;padding-left: 3pt;padding-right: 3pt;}
 ul.menu li a{text-transform:capitalize;color:#FFF;font-weight: bold;font-family: monospace;margin: 0 5px;}
 ul.menu li a:hover{text-transform:uppercase;}
 .notas{width: 96%;float: left; padding-top: 10px;padding-left:2%;padding-right: 2%;}
-.nota{float:left;margin-top: 5px; margin-bottom: 5px;width: 32.3%;margin-left: 0.5%;margin-right: 0.5%;}
+.nota{float:left;margin-top: 5px; margin-bottom: 5px;width: 31.0%;margin-left: 0.5%;margin-right: 0.5%;}
 .nota .imgnotafront{width: 100%;height: 250px;}
 .linknotafront{width: 100%;font-size: 15px;color:black;font-weight: bold;}
 .linknotafront:hover{color:#de7d0f;}
@@ -27,3 +27,6 @@ p.eticat a.linkcat:hover{text-transform:uppercase;color:#de7d0f;font-size: 17px;
 .aimgfooter{margin: 0 3.6%;}
 .barrapie{width: 100%;height: 20px;background-color: #dc7c25;margin-top:10px;}
 .imgpietrio{width: 25%;}
+.notint{width: 50%;float: left;}
+.notint figure img{float: left;width: 100%;}
+.linknotint{margin-top: 10px;margin-bottom: 10px;}
