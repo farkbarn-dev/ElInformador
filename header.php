@@ -18,7 +18,7 @@
   <body>
     <main class="main">
       <section class="header">
-        <a href="<?php echo get_site_url(); ?>">
+        <a class="alogo" href="<?php echo get_site_url(); ?>">
           <img class="logo" src=<?php echo get_template_directory_uri()."/img/elinformadorve.svg"; ?> alt="">
         </a>
       </section>
