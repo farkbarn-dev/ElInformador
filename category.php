@@ -5,7 +5,9 @@
 
 get_header(); ?>
 
-
+<?php  $categoria = get_query_var('category_name', 0);
+  echo $categoria;
+?>
 <?php while (have_posts()) : the_post(); ?>
 <div class="excerpt-post">
 <h2 id="post-<?php the_ID(); ?>">
