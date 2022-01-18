@@ -27,9 +27,9 @@
             </section>
           <?php endwhile; ?>
 
-          <p class="eticat"><a class="linkcat" href="#">lara</a></p>
+          <p class="eticat"><a class="linkcat" href="#">actualidad</a></p>
           <?php
-            query_posts('category_name=lara&posts_per_page=3' );
+            query_posts('category_name=actualidad&posts_per_page=9' );
             while (have_posts()):the_post(); ?>
             <section class="nota">
               <a class="linknotafront" href="<?php the_permalink(); ?>"><img class="imgnotafront" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
@@ -38,20 +38,9 @@
             </section>
           <?php endwhile; ?>
 
-          <p class="eticat"><a class="linkcat" href="#">economía</a></p>
+          <p class="eticat"><a class="linkcat" href="#">opinión</a></p>
           <?php
-            query_posts('category_name=economia&posts_per_page=3' );
-            while (have_posts()):the_post(); ?>
-            <section class="nota">
-              <a class="linknotafront" href="<?php the_permalink(); ?>"><img class="imgnotafront" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
-              <a class="linknotafront" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-              <p class="fechanotafront"><?php echo get_the_date('d/m/Y'); ?></p>
-            </section>
-          <?php endwhile; ?>
-
-          <p class="eticat"><a class="linkcat" href="#">vida</a></p>
-          <?php
-            query_posts('category_name=vida&posts_per_page=3' );
+            query_posts('category_name=opinion&posts_per_page=9' );
             while (have_posts()):the_post(); ?>
             <section class="nota">
               <a class="linknotafront" href="<?php the_permalink(); ?>"><img class="imgnotafront" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
