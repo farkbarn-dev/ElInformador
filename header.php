@@ -25,16 +25,16 @@
       <section class="body">
         <ul class="menu">
           <li> <a href="<?php echo get_site_url(); ?>">inicio</a> </li>
-          <li> <a href="<?php echo get_site_url()."/lara"; ?>">lara</a> </li>
-          <li> <a href="<?php echo get_site_url()."/venezuela"; ?>">venezuela</a> </li>
-          <li> <a href="<?php echo get_site_url()."/internacionales"; ?>">internacionales</a> </li>
-          <li> <a href="<?php echo get_site_url()."/deportes"; ?>">deportes</a> </li>
-          <li> <a href="<?php echo get_site_url()."/sucesos"; ?>">sucesos</a> </li>
-          <li> <a href="<?php echo get_site_url()."/economia"; ?>">economía</a> </li>
-          <li> <a href="<?php echo get_site_url()."/actualidad"; ?>">actualidad</a> </li>
-          <li> <a href="<?php echo get_site_url()."/opinion"; ?>">opinión</a> </li>
-          <li> <a href="<?php echo get_site_url()."/vida"; ?>">vida</a> </li>
-          <li> <a href="<?php echo get_site_url()."/especiales"; ?>">especiales</a> </li>
-          <li> <a href="<?php echo get_site_url()."/carteles"; ?>">carteles</a> </li>
-          <li> <a href="<?php echo get_site_url()."/obituarios"; ?>">obituarios</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=2"; ?>">lara</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=3"; ?>">venezuela</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=4"; ?>">internacionales</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=5"; ?>">deportes</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=6"; ?>">sucesos</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=7"; ?>">economía</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=8"; ?>">actualidad</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=9"; ?>">opinión</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=10"; ?>">vida</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=11"; ?>">especiales</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=12"; ?>">carteles</a> </li>
+          <li> <a href="<?php echo get_site_url()."/?cat=13"; ?>">obituarios</a> </li>
         </ul>
