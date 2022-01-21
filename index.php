@@ -11,7 +11,7 @@
             <section class="nota">
               <a class="linknotafront" href="<?php the_permalink(); ?>"><img class="imgnotafront" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
               <a class="linknotafront" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-              <p class="fechanotafront"><?php echo the_category( ' ' ); ?><?php echo get_the_date('d/m/Y'); ?></p>
+              <p class="fechanotafront"><?php echo ', '; echo the_category( ',  ' ); ?><?php echo get_the_date('d/m/Y'); ?></p>
             </section>
           <?php endwhile; ?>
           </section>
@@ -23,7 +23,7 @@
             <section class="nota">
               <a class="linknotafront" href="<?php the_permalink(); ?>"><img class="imgnotafront" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
               <a class="linknotafront" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-              <p class="fechanotafront"><?php echo the_category( ' ' ); ?><?php echo get_the_date('d/m/Y'); ?></p>
+              <p class="fechanotafront"><?php echo get_the_date('d/m/Y'); ?></p>
             </section>
           <?php endwhile; ?>
 
@@ -34,7 +34,7 @@
             <section class="nota">
               <a class="linknotafront" href="<?php the_permalink(); ?>"><img class="imgnotafront" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
               <a class="linknotafront" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-              <p class="fechanotafront"><?php echo the_category( ' ' ); ?><?php echo get_the_date('d/m/Y'); ?></p>
+              <p class="fechanotafront"><?php echo get_the_date('d/m/Y'); ?></p>
             </section>
           <?php endwhile; ?>
 
@@ -45,7 +45,7 @@
             <section class="nota">
               <a class="linknotafront" href="<?php the_permalink(); ?>"><img class="imgnotafront" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
               <a class="linknotafront" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-              <p class="fechanotafront"><?php echo the_category( ' ' ); ?><?php echo get_the_date('d/m/Y'); ?></p>
+              <p class="fechanotafront"><?php echo get_the_date('d/m/Y'); ?></p>
             </section>
           <?php endwhile; ?>
 
@@ -56,7 +56,7 @@
             <section class="nota">
               <a class="linknotafront" href="<?php the_permalink(); ?>"><img class="imgnotafront" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
               <a class="linknotafront" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-              <p class="fechanotafront"><?php echo ', '; echo the_category( ', ' ); ?><?php echo get_the_date('d/m/Y'); ?></p>
+              <p class="fechanotafront"><?php echo get_the_date('d/m/Y'); ?></p>
             </section>
           <?php endwhile; ?>
 
@@ -67,7 +67,7 @@
             <section class="nota">
               <a class="linknotafront" href="<?php the_permalink(); ?>"><img class="imgnotafront" src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
               <a class="linknotafront" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-              <p class="fechanotafront"><?php echo the_category( ' ' ); ?><?php echo get_the_date('d/m/Y'); ?></p>
+              <p class="fechanotafront"><?php echo get_the_date('d/m/Y'); ?></p>
             </section>
           <?php endwhile; ?>
 
