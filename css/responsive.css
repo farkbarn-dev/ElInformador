@@ -1,0 +1,9 @@
+@media (max-width: 1024px) { }
+@media (max-width:768px){
+  .nota{float:left;margin-top: 5px; margin-bottom: 5px;width: 99%;float: left;margin-left: 0.5%;margin-right: 0.5%;}
+  .imgpietrio{width: 90%;margin:10px 0;}
+}
+@media (max-width:480px){}
+@media (max-width:320px){
+  .header .logo{width: 100%;}
+}
