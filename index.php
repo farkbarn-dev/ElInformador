@@ -3,7 +3,7 @@
 ?>
 <section class="slider"></section>
 
-          <section class="notas">
+          
           <p class="eticat"><a class="linkcat" href="#">venezuela</a></p>
           <?php
             query_posts('category_name=venezuela&posts_per_page=9' );
@@ -14,7 +14,8 @@
               <p class="fechanotafront"><?php echo ', '; echo the_category( ',  ' ); ?><?php echo get_the_date('d/m/Y'); ?></p>
             </section>
           <?php endwhile; ?>
-          </section>
+
+
 
           <p class="eticat"><a class="linkcat" href="#">especiales</a></p>
           <?php
@@ -27,6 +28,8 @@
             </section>
           <?php endwhile; ?>
 
+
+
           <p class="eticat"><a class="linkcat" href="#">actualidad</a></p>
           <?php
             query_posts('category_name=actualidad&posts_per_page=9' );
@@ -37,6 +40,8 @@
               <p class="fechanotafront"><?php echo get_the_date('d/m/Y'); ?></p>
             </section>
           <?php endwhile; ?>
+
+
 
           <p class="eticat"><a class="linkcat" href="#">opinión</a></p>
           <?php
@@ -49,6 +54,8 @@
             </section>
           <?php endwhile; ?>
 
+
+
           <p class="eticat"><a class="linkcat" href="#">deportes</a></p>
           <?php
             query_posts('category_name=deportes&posts_per_page=9' );
@@ -60,6 +67,8 @@
             </section>
           <?php endwhile; ?>
 
+
+
           <p class="eticat"><a class="linkcat" href="#">internacionales</a></p>
           <?php
             query_posts('category_name=internacionales&posts_per_page=9' );
@@ -70,6 +79,7 @@
               <p class="fechanotafront"><?php echo get_the_date('d/m/Y'); ?></p>
             </section>
           <?php endwhile; ?>
+
 
         </section><!---fin notas-->
 <?php
