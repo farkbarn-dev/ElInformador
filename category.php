@@ -6,6 +6,7 @@
 get_header(); ?>
 
 </br>
+
 <?php
 //	echo "prueba";
 //	echo "</br>";
