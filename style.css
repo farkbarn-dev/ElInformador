@@ -13,3 +13,104 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: test
 Tags: test,test
 */
+
+/*reset*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*styles*/
+@charset "UTF-8";
+@font-face {
+  font-family: 'arial-narrow';
+  src: url('arial-narrow.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+*{text-align: 0;text-decoration: none;font-family: 'Open Sans';float: left;}
+.header{width: 100%; height: auto;background-color: #dc7c25;text-align: center;padding-top: 30px;padding-bottom: 10px;}
+.header a{float: left;width: 100%;}
+.header .alogo{float: left;}
+.header .alogo .logo{width: 80%;float:left;margin: 0 10%;}
+ul.menu{width: 100%;background-color: #de7d0f;padding-top: 10px;padding-bottom: 10px;text-align: center;}
+ul.menu li{display: inline;padding-left: 3pt;padding-right: 3pt;}
+ul.menu li a{text-transform:capitalize;color:#FFF;font-weight: bold;font-family: monospace;margin: 0 5px;}
+ul.menu li a:hover{text-transform:uppercase;}
+.notas{width: 96%;float: left; padding-top: 10px;padding-left:2%;padding-right: 2%;}
+.nota{float:left;margin-top: 5px; margin-bottom: 5px;width: 31.0%;margin-left: 0.5%;margin-right: 0.5%;}
+.nota .imgnotafront{width: 100%;height: 250px;float:left;}
+.secimgnotafront{width: 100%;float: left;}
+.imgnotafront{width: 100%;}
+.linknotafront{width: 100%;font-size: 15px;color:black;font-weight: bold;}
+.linknotafront:hover{color:#de7d0f;}
+.pnotafront{width: 100%;color: black;}
+.fechanotafront{font-size: 10px;color: gray;margin-top:5px;font-weight: bold;}
+.eticat{width: 100%;text-align: center;font-size: 20px;float: left;font-weight: bold;margin: 10px 0;margin-top: 20px;text-transform: capitalize;}
+p.eticat a.linkcat{color:#000;font-size: 20px;width: 100%;}
+p.eticat a.linkcat:hover{text-transform:uppercase;color:#de7d0f;font-size: 17px;}
+.footer{width: 100%;float: left;margin-top: 30px;/*margin-bottom: 30px;*/}
+.aimgfooter{margin: 0 3.6%;}
+.barrapie{width: 100%;height: 20px;background-color: #dc7c25;margin-top:10px;}
+.imgpietrio{width: 25%;}
+.notint{width: 50%;float: left;}
+.notintsingle{width: 100%;float: left;}
+.notintsingle p{text-align: justify;margin-top: 5px;margin-bottom: 5px;}
+.notint figure img{float: left;width: 100%;}
+.linknotint{margin-top: 10px;margin-bottom: 10px;float: left;color:#dc7c25;font-weight: bold;}
+.notintsingle{float: left;}
+
+/*responsive*/
+@media (max-width: 1024px) { }
+@media (max-width:768px){
+  .nota{float:left;margin-top: 5px; margin-bottom: 5px;width: 99%;float: left;margin-left: 0.5%;margin-right: 0.5%;}
+  .imgpietrio{width: 90%;margin:10px 0;}
+}
+@media (max-width:480px){}
+@media (max-width:320px){
+  .header .logo{width: 100%;}
+}

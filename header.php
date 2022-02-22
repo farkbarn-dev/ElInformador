@@ -10,9 +10,9 @@
     <meta name="keywords" content="venezuela,lara,noticias,internacionales,deportes,sucesos,economia,actualidad,opinión,vida,especiales,carteles,obituarios"/>
     <meta name="author" content="Frank Barrera | @farkbarn"/>
     <link rel="stylesheet" href="<?php echo bloginfo('stylesheet_url'); ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()."/css/reset.css"; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()."/css/styles.css"; ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri()."/css/responsive.css"; ?>">
+    <link rel="stylesheet" href="<?php /// echo get_template_directory_uri()."/css/reset.css"; ?>">
+    <link rel="stylesheet" href="<?php /// echo get_template_directory_uri()."/css/styles.css"; ?>">
+    <link rel="stylesheet" href="<?php /// echo get_template_directory_uri()."/css/responsive.css"; ?>">
     <link rel="shortcut icon" type="image/x-icon" href="img/logoEI.png">
   </head>
   <body>
