@@ -11,8 +11,9 @@
     <meta name="author" content="Frank Barrera | @farkbarn"/>
 
     <link rel="stylesheet" href="<?php echo bloginfo('stylesheet_url'); ?>">
+<!--
     <link rel="stylesheet" href="http://192.168.1.39/wp-content/themes/elinformador/style.css">
-
+-->
     <link rel="stylesheet" href="<?php /// echo get_template_directory_uri()."/css/reset.css"; ?>">
     <link rel="stylesheet" href="<?php /// echo get_template_directory_uri()."/style.css"; ?>">
     <link rel="stylesheet" href="<?php /// echo get_template_directory_uri()."/css/responsive.css"; ?>">
