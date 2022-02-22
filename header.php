@@ -15,7 +15,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/logoEI.png">
   </head>
   <body>
-    <?php ///echo localhost(); ?>
     <main class="main">
       <section class="header">
         <a class="alogo" href="<?php echo get_site_url(); ?>">
