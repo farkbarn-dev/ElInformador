@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*
 Theme Name: test
-Theme URI: https://github.com/farkbarn2/ElInformador
+Theme URI: https://github.com/farkbarn-dev/ElInformador
 Author: Frank Barrera | @farkbarn
 Author URI: https://www.linkedin.com/in/frank-a-barrera-g-/
 Description: Tema diario El Informador para Wordpress
@@ -82,7 +82,7 @@ ul.menu li{display: inline;padding-left: 3pt;padding-right: 3pt;}
 ul.menu li a{text-transform:capitalize;color:#FFF;font-weight: bold;font-family: monospace;margin: 0 5px;}
 ul.menu li a:hover{text-transform:uppercase;}
 .notas{width: 96%;float: left; padding-top: 10px;padding-left:2%;padding-right: 2%;}
-.nota{float:left;margin-top: 5px; margin-bottom: 5px;width: 31.0%;margin-left: 0.5%;margin-right: 0.5%;}
+.nota{float:left;margin-top: 5px; margin-bottom: 5px;width: 32.3%;margin-left: 0.5%;margin-right: 0.5%;}
 .nota .imgnotafront{width: 100%;height: 250px;float:left;}
 .secimgnotafront{width: 100%;float: left;}
 .imgnotafront{width: 100%;}
