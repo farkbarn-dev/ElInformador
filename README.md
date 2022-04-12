@@ -1,1 +1,1 @@
-# El Informador
+# El Informador | Tema Wordpress
