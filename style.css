@@ -35,7 +35,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -103,6 +102,7 @@ p.eticat a.linkcat:hover{text-transform:uppercase;color:#de7d0f;font-size: 17px;
 .notint figure img{float: left;width: 100%;}
 .linknotint{margin-top: 10px;margin-bottom: 10px;float: left;color:#dc7c25;font-weight: bold;}
 .notintsingle{float: left;}
+.alignright{width:100%;}
 
 /*responsive*/
 @media (max-width: 1024px) { }
