@@ -103,7 +103,7 @@ p.eticat a.linkcat:hover{text-transform:uppercase;color:#de7d0f;font-size: 17px;
 .linknotint{margin-top: 10px;margin-bottom: 10px;float: left;color:#dc7c25;font-weight: bold;}
 .notintsingle{float: left;}
 .alignright{width:100%;}
-
+img.alignlefth,.alignleft{width:100%;}
 /*responsive*/
 @media (max-width: 1024px) { }
 @media (max-width:768px){
